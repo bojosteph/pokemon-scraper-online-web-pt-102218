@@ -22,7 +22,9 @@ class Pokemon
   
   
   def self.find(id, database_connection)
-    pokemon = database_connection.execute
+    pokemon = database_connection.execute("SELECT * FROM pokemon WHERE id = ?", id)
+    pokemon_inst = Pokemon.new(pokemon)
+    pokemon.id = pokemon[0][0]
   end
 
     
