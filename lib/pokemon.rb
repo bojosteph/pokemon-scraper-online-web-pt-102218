@@ -31,6 +31,9 @@ class Pokemon
     pokemon_inst.hp = pokemon[0][3]
     pokemon_inst
   end
+  
+  
+  def alter_hp()
 
     
   
