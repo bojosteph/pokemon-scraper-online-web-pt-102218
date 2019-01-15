@@ -25,6 +25,7 @@ class Pokemon
     pokemon = database_connection.execute("SELECT * FROM pokemon WHERE id = ?", id)
     pokemon_inst = Pokemon.new(pokemon)
     pokemon_inst.id = pokemon[0][0]
+    pokemon_inst.id = pokemon[0][0]
     
   end
 
