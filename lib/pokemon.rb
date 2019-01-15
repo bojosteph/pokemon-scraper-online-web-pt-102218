@@ -27,6 +27,7 @@ class Pokemon
     pokemon_inst.id = pokemon[0][0]
     pokemon_inst.id = pokemon[0][0]
     pokemon_inst.id = pokemon[0][0]
+    pokemon_inst.id = pokemon[0][0]
     
   end
 
