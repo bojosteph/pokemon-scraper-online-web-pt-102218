@@ -21,7 +21,8 @@ class Pokemon
   end
   
   
-  def self.find
+  def self.find(id, database_connection)
+    pokemon = database_connection.execute
   end
 
     
